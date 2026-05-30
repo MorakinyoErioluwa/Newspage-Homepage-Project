@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dist/output.css">
+    <title>NEWS HOMEPAGE</title>
+</head>
+<body>
+    <div class="w-[92%] mx-auto flex flex-col gap-10 py-10 lg:w-[80%]">
+            <nav class="flex items-center justify-between">  
+            <img src="images/logo.svg" alt="" class="w-14">
+           
+        
+
+            <img src="images/icon-menu.svg" alt="" class="w-[26px]  block lg:hidden">
+
+          
+        </details>
+
+
+             <div class="lg:flex lg:gap-8 items-center hidden lg:block">
+                <a href="" class="hover:text-red-400 hover:cursor-pointer">Home</a>
+                <a href="" class="hover:text-red-400">New</a>
+                <a href="" class="hover:text-red-400">Popular</a>
+                <a href="" class="hover:text-red-400">Trending</a>
+                <a href="" class="hover:text-red-400">Campaign</a>
+             </div>
+            
+            </nav>
+        
+    <main class="flex flex-col lg:grid grid-cols-[2fr_1fr] gap-5">
+        <div >
+            <div>
+                <img src="images/image-web-3-desktop.jpg" alt=""
+            class=" hidden lg:block md:hidden ">
+            <img src="images/image-web-3-mobile.jpg" alt="" 
+            class="block lg:hidden md:hidden">
+            <img src="images/image-web-3-mobile.jpg" alt="" 
+            class="hidden lg:hidden md:block w-[900px] ">
+            </div>
+
+            <div class="lg:flex items-center justify-between mt-4 w-full gap-6">
+                <h1 class="font-extrabold text-5xl text-[#0D0921] ">The Bright Future of Web 3.0?</h1>
+               <div>
+                 <p class="text-blue-900 text-md mt-3 ">We dive into the next evolution of the web that claims
+                     to put the power of the platforms backinto the hands of the people. But is it really fulfilling its promise?
+                 <button class="bg-[#F35D52] mt-3 px-8 py-2 font-bold block hover:bg-[#00011A]">READ MORE</button>
+                </p> 
+               </div>
+            </div>
+        </div>
+        
+
+
+            <div class="bg-[#00011A] py-2 px-2 ">
+                <h1 class="text-[#B08041] text-2xl font-semibold px-2 mb-4">New</h1>
+
+                <div class="flex flex-col gap-6 px-2" >
+
+                <div class="mini text-white">
+                    <h1 class="font-extrabold hover:text-[#B08041] cursor-pointer">Hydrogen VS Electric Cars</h1>
+                    <p class="font-semibold">Will hydrogen-fueled cars ever catch up to EV's?</p>
+                </div>
+                <hr class="bg-white">
+
+                <div class="text-white ">
+                    <h1 class="font-extrabold hover:text-[#B08041] cursor-pointer ">The Downsides of Al Artistry</h1>
+                    <p class="font-semibold">What are the possible adverse effects of on-demand Ai image generation?</p>
+                </div>
+                <hr class="bg-white">
+
+                <div class="text-white">
+                    <h1 class="font-bold hover:text-[#B08041] cursor-pointer">Is VC Funding Drying Up?</h1>
+                    <p class="font-semibold">Private funding by VC firms is down 50% YDY, We take a look at what that means.</p>
+                </div>
+           </div>
+    </main>
+
+    <div class="flex flex-col gap-4 lg:grid grid-cols-3 ">
+            <div class="flex gap-2">
+                <img src="images/image-retro-pcs.jpg" class="w-[25%]" alt="" >
+                <div class="flex flex-col gap-2">
+                    <h1 class="text-[#C97067] font-bold text-2xl">01</h1>
+                    <p class="font-extrabold text-[#4B4654] hover:text-red-400">Reviving Reto PCs</p>
+                    <p class="">What happens when old PCs are given modern upgrades?</p>
+
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="images/image-top-laptops.jpg" class="w-[25%]" alt="">
+                <div class="flex flex-col gap-2">
+                    <h1  class="text-[#C97067] font-bold text-2xl">02</h1>
+                    <p class="font-bold hover:text-red-400">Top 10 Laptops of 2022</p>
+                    <p class="">Our best picks for various needs and budgets.</p>
+
+                </div>
+            </div>
+
+             <div class="flex gap-2">
+                <img src="images/image-gaming-growth.jpg" class="w-[25%]" alt="">
+                <div class="flex flex-col gap-2">
+                    <h1 class="text-[#C97067] font-extrabold text-2xl">03</h1>
+                    <p class="font-bold hover:text-red-400">The Growth of Gaming</p>
+                    <p class="">How the pandemic has sparked fresh opportunites.</p>
+
+                </div>
+            </div>
+       
+    </div>
+    
+    <script>
+        const imago = document.getElementById('imago')
+        const clicker = document.getElementById('clicker')
+       
+      imago.addEventListener("click", () =>{
+        clicker.classList.toggle('hidden')
+      })
+    </script>
+</body>
+</html>
